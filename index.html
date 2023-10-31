@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/index.css" />
+    <script src="https://kit.fontawesome.com/2a956e9c05.js"
+      crossorigin="anonymous"></script>
+    <title>KCC CINEMA</title>
+  </head>
+
+  <body>
+    <div id="movieContainer" style="position: absolute; z-index: 1; transition: all 400ms"></div>
+    <!-- CURTAINS -->
+    <div class="curtain1">
+      <section class="rnOuter">
+        <div class='rnInner'>
+          <div class='rnUnit'></div>
+          <div class='rnUnit'></div>
+          <div class='rnUnit'></div>
+          <div class='rnUnit'></div>
+          <div class='rnUnit'></div>
+          <div class='rnUnit'></div>
+          <div class='rnUnit'></div>
+          <div class='rnUnit'></div>
+          <div class='rnUnit'></div>
+          <div class='rnUnit'></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="curtain2">
+      <section class="rnOuter2">
+        <div class='rnInner2'>
+          <div class='rnUnit2'></div>
+          <div class='rnUnit2'></div>
+          <div class='rnUnit2'></div>
+          <div class='rnUnit2'></div>
+          <div class='rnUnit2'></div>
+          <div class='rnUnit2'></div>
+          <div class='rnUnit2'></div>
+          <div class='rnUnit2'></div>
+          <div class='rnUnit2'></div>
+          <div class='rnUnit2'></div>
+        </div>
+      </div>
+    </div>
+    <!-- /CURTAINS -->
+
+    <!-- NAVIGATION -->
+    <div class="nav">
+      <div class="dropdown " data-dropdown>
+        <button class="link" data-dropdown-button>
+          <img src="/assets/img/logo/kcc-logo.png"
+          alt="kcc-logo"
+          id="kcc-logo" />
+          <h2>CINEMA</h2>
+          <i class="fa-solid fa-caret-right" style="color:whitesmoke; margin: 0; font-size: 30px; opacity: .5 ; transition: all 1000ms ease-in-out; position: relative; transition: all 400ms;"></i>
+        </button>
+        <div class="dropdown-menu">
+          <a href="index.html">Home</a>
+          <a href>Movie</a>
+          <a href>Schedule</a>
+          <a href="/about.html">About Us</a>
+        </div>
+      </div>
+    </div>
+    <!-- /NAVIGATION -->
+
+    <!-- SHOWCASE -->
+    <div id="section1" class="showcase">
+      <div class="showcase-container">
+        <div class="showcase-box">
+          <video class="showcase-video" poster="/assets/img/thumbnail/OnePieceThumbnail.webp" muted>
+            <source src="/assets/video/onepiecetrailer.mp4" type="video/mp4">
+          </video>
+          <div class="showcase-letter">
+            <img src="/assets/img/title/OnePiece-removebg-preview.png" alt="">
+          </div>
+        </div>
+        <div class="showcase-box">
+          <video class="showcase-video" muted>
+            <source src="/assets/video/WONKA ｜ Official Trailer [otNh9bTjXWg].mp4" type="video/mp4">
+          </video>
+          <div class="showcase-letter">
+            <img src="/assets/img/title/6532b0dacf024-removebg-preview.png" alt="">
+          </div>
+        </div>
+        <div  class="showcase-box">
+          <video class="showcase-video" muted >
+            <source src="/assets/video/THE EQUALIZER 3 - Official Red Band Trailer (HD) [19ikl8vy4zs].mp4" type="video/mp4">
+          </video>
+          <div class="showcase-letter">
+            <img src="/assets/img/title/Equalizer3TT-removebg-preview.png" alt="">
+          </div>
+        </div>
+        <div  class="showcase-box">
+          <video class="showcase-video" muted>
+            <source src="/assets/video/THE EQUALIZER 3 - Official Red Band Trailer (HD) [19ikl8vy4zs].mp4" type="video/mp4">
+          </video>
+          <div class="showcase-letter">
+            <img src="/assets/img/title/Equalizer3TT-removebg-preview.png" alt="">
+          </div>
+        </div>
+        <div class="showcase-box">
+          <video class="showcase-video" muted>
+            <source src="/assets/video/THE EQUALIZER 3 - Official Red Band Trailer (HD) [19ikl8vy4zs].mp4" type="video/mp4">
+          </video>
+          <div class="showcase-letter">
+            <img src="/assets/img/title/Equalizer3TT-removebg-preview.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="showcase-nav">
+        <i class="fa-solid fa-chevron-right arrow right"></i>
+        <div class="showcase-header">
+          <div class="showcase-navContainer">
+            <div  id="container1" class="showcase-navBox">
+              <img class="poster1" src="/assets/img/poster/OnePiecePoster.jpg" alt="">
+            </div>
+            <div id="container2" class="showcase-navBox">
+              <img class="poster2" src="/assets/img/poster/Wonka.jpg" alt="">
+            </div>
+            <div id="container3" class="showcase-navBox">
+              <img class="poster3" src="/assets/img/poster/equalizer.jpg" alt="">
+            </div>
+            <div id="container4" class="showcase-navBox">
+              <img class="poster4" src="/assets/img/poster/equalizer.jpg" alt="">
+            </div>
+            <div id="container5" class="showcase-navBox">
+              <img class="poster5" src="/assets/img/poster/equalizer.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <i class="fa-solid fa-chevron-left arrow left "></i>
+        <div class="line-nav">
+          <div><a class="line" href="#container1"></a></div>
+          <div><a class="line" href="#container2"></a></div>
+          <div><a class="line" href="#container3"></a></div>
+          <div><a class="line" href="#container4"></a></div>
+          <div><a class="line" href="#container5"></a></div>
+        </div>
+        <button class="info"><i class="fa-solid fa-info"></i></button>
+        <h1 class="heading">Luffy's Live-Action</h1>
+        <p class="text">With his straw hat and ragtag crew, young pirate Monkey D. Luffy goes on an epic voyage for treasure in this live-action adaptation of the popular manga.
+        </p>
+        <button class="button-57 first" role="button"><span class="text">Watch Trailer</span><span><i class="fa fa-play-circle-o" aria-hidden="true"></i></span></button>
+        <button class="button-57 second" role="button"><span class="text">Buy Ticket</span><span><i class="fa fa-ticket" aria-hidden="true"></i></span></button> 
+      </div>
+      
+    </div>
+    <!-- /SHOWCASE -->
+
+    <!-- COMING SOON -->
+    <div id="section2" class="coming">
+      <h1>Upcoming Movies</h1>
+      <p>Get ready for a cinematic extravaganza with our upcoming movies. From epic action to heartwarming dramas, there's something for every film lover in our exciting lineup.</p>
+      <div class="coming-showcase">
+        <button class="volume-control">
+          <i class="fa-solid fa-volume-xmark"></i>
+          <i class="fa-solid fa-volume-high"></i>
+        </button>
+        <video class="coming-video " poster="/assets/img/thumbnail/Mirabel_hugging_Alma.webp" >
+          <source src="/assets/video/Animation Montage 8 - A Magical Tribute [0PX2dyP8D5U].mp4" type="video/mp4">
+        </video>
+        <div class="blur-effect"></div>
+        <div class="coming-header">
+          <div class="coming-container">
+            <div class="coming-box">
+              <img src="/assets/img/landscape/sing.jpeg" alt="">
+              <h2>SING</h2>
+            </div>
+            <div class="coming-box">
+              <img src="/assets/img/landscape/hotel.jpeg" alt="">
+              <h2>Hotel Transyvania 3</h2>
+            </div>
+            <div class="coming-box">
+              <img src="/assets/img/landscape/trolss.jpeg" alt="">
+              <h2>Trolls</h2>
+            </div>
+            <div class="coming-box">
+              <img src="/assets/img/landscape/spider.jpeg" alt="">
+              <h2>Spiderman</h2>
+            </div>
+            <div class="coming-box">
+              <img src="/assets/img/landscape/Monsters University.jpg" alt="">
+              <h2>Monster University</h2>
+            </div>
+            <div class="coming-box">
+              <img src="/assets/img/landscape/Spider Man.jpg" alt="">
+              <h2>Spider man: multivierse</h2>
+            </div>
+            <div class="coming-box">
+              <img src="/assets/img/landscape/Ready Player One.jpg" alt="">
+              <h2>Ready Player One</h2>
+            </div>
+            <div class="coming-box">
+              <img src="/assets/img/landscape/The Flash.jpeg" alt="">
+              <h2>The Flash</h2>
+            </div>
+            <div class="coming-box">
+              <img src="/assets/img/landscape/The Tomorrow War.jpg" alt="">
+              <h2>The Tomorrow War</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/src/js/information.js"></script>
+    <script src="/src/js/carousel.js"></script>
+    <script src="/src/js/scroll.js"></script>
+    <script src="/src/js/showing.js"></script>
+  </body>
+  <footer>
+    <hr />
+    <section class="end-footer">
+      <div>
+        <p>
+          © <span style="color: #0041ff">ADZU Developers</span> | All
+          rights
+          Reserved
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="aboutPage.html" class="decor-lineRemove">About</a> |
+          <a href="#" class="decor-lineRemove">Terms </a> |
+          <a href="#" class="decor-lineRemove">Privacy</a>
+        </p>
+      </div>
+    </section>
+  </footer>
+
+</html>
